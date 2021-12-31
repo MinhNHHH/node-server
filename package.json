@@ -1,0 +1,21 @@
+{
+  "name": "deploy-node",
+  "version": "1.0.0",
+  "description": "Deploy socket",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "engines": {
+    "node": "14.x"
+  },
+  "author": "Minh",
+  "license": "MIT",
+  "devDependencies": {
+    "websocket": "^1.0.34"
+  }
+}
