@@ -34,4 +34,4 @@ wsServer.on('request', function (request) {
     console.log('Client has disconnected.');
   });
 });
-server.listen(80);
+server.listen(process.env.PORT || 80);
